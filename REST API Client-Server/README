@@ -1,0 +1,25 @@
+Mod de functionare
+Serverul va permite efectuarea urmatoarelor actiuni ale clientului:
+
+Inregistrarea unui cont - comanda "register"
+
+Autentificare - comanda "login"
+• Intoarce cookie de sesiune
+
+Cerere de acces in biblioteca -comanda "enter_library"
+• Intoarce un token JWT, care demonstreaza accesul la biblioteca
+
+Vizualizarea informatiilor sumare despre toate cartile - comanda "get_books"
+• Trebuie sa demonstrati ca aveti acces la biblioteca
+
+Vizualizarea detaliilor despre o carte - comada "get_book" (ofera prompt pentru id)
+• Trebuie sa demonstrati ca aveti acces la biblioteca
+
+Adaugarea unei carti - comanda "add_book" (ofera prompt pentru title, author, genre, publisher, page count)
+• Trebuie sa demonstrati ca aveti acces la biblioteca
+
+Stergerea unei carti - comanda "delete_book" (ofera prompt pentru id)
+• Trebuie sa demonstrati ca aveti acces la biblioteca
+
+Logout - comanda "logout"
+• Trebuie sa demonstrati ca sunteti autentificati
