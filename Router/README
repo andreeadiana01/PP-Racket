@@ -1,0 +1,17 @@
+-este primit un pachet pentru care se verifica pe rand suma de control 
+si ttl-ul
+
+-se cauta apoi in tabela de rutare(o cautare binara 
+(O(logn)) pe tabela de rutare sortata in prealabil dupa 
+campurile prefix si mask.) intrarea cea mai specifica 
+(searched) pentru care este indeplinita conditia 
+(searched & mask == prefix)
+
+-daca s-a gasit, se trimite pachetul pe interfata corespunzatoare 
+celei mai specifice intrari, dupa ce a fost modificata suma de control
+
+-in caz contrar, va fi intors un mesaj de eroare
+
+-inainte de trimiterea pachetului se cauta in tabela arp
+dupa next-hop-ul corespunzator pentru interfata celei
+mai specifice intrari
